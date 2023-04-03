@@ -1,0 +1,161 @@
+:root {
+    --white: white;
+    --black: black;
+    --linkHover: #ED8E00;
+    --btnBg: #F18128;
+    --btnBgHover: #040D1F;
+    --bodyBg: #040D1F;
+    --title: #F18128;
+    --comfortaa: 'Comfortaa';
+    --montserrat: 'Montserrat';
+    --roboto: 'Roboto';
+    --fit: #6b5af9;
+    --clr: #ff006a;
+    --clr1: #9d00ff;
+}
+
+
+@media (max-width: 1450px){}
+@media (max-width: 1600px){
+    .gifpk{
+        width: 432px;
+        height: 301px;
+       
+    }
+
+    .header__banner{
+        height: 100%;
+    }
+}
+@media (max-width: 1200px){
+       .footer__item {
+    padding: 36px 36px;
+    }
+
+    .gifpk{
+        /* width: 432px;
+        height: 301px; */
+       right: 50px;
+    }
+}
+
+@media (max-width: 1300px){
+    .gifpk{
+        /* width: 432px;
+        height: 301px; */
+       right: 50px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 992px){
+
+    .e{
+        margin-top: 20px;
+        display: block;
+    }
+    
+    .call{
+        margin-top: 20px;
+        display: block;
+    }
+
+
+    .header__menu {
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        left: -350px;
+        top: 0;
+        width: 345px;
+        background-color: var(--fit);
+        padding: 75px 20px 20px 20px;
+        transition: transform .5s;
+        z-index: 9999;
+        height: 100%;
+    }
+    .menu__list {
+        display: block;
+    }
+    .menu__link {
+        color: white;
+        font-size: 21px;
+        display: block;
+        padding: 10px 0;
+    }
+    .header.open .menu {
+        transform: translateX(100%);
+    }
+
+    .dbock a{
+        display: block;
+    }
+
+
+    .menu__item a:hover{
+        color: var(--fit);
+    }
+
+    .logo{
+        margin-right: 32px;
+    }
+
+
+    .siza{
+    display: none;
+    }
+
+    .none{
+        display: block;
+    }
+    
+    .noner{
+        display: none;
+    }
+
+    .gifpk{
+        width: 432px;
+        height: 301px;
+        position: unset;
+    }
+ 
+    
+ 
+}
+@media (max-width: 768px){
+    .all__cervices__elements{
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 576px){
+    
+    .gifpk{
+        width: 350px;
+        height: 263px;
+    }
+    
+    .services__elements_img{
+        width: 333px;
+    }
+
+    .w{
+        width: 200px;
+    }
+   
+    .footer__item {
+        flex-direction: column;
+    } 
+    
+}
+@media (max-width: 375px){
+    .gifpk {
+        width: 250px;
+        height: 181px
+    }
+}

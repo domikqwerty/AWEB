@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Отправка формы для заказа</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <style>
+    	form {
+    		background-color: #f9f9f9;
+    		padding: 20px;
+    		margin: 20px;
+    	}
+
+      h4{
+        font-size: 12px;
+        color: red;
+      }
+
+      .h5, h5 {
+    font-size: 13px;
+    color: rebeccapurple;
+}
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="row">
+      	<div class="col-sm-4">
+      		<form action="mail.php" method="POST">
+      			<legend>Заявка</legend>
+
+      			<div class="form-group">
+      				<label for="">Введите ваше имя</label>
+                	<input type="text" class="form-control" id="" name="user_name" required placeholder="Например, Кирилл">
+      			</div>
+      		
+      			<div class="form-group">
+      				<label for="">Введите номер телефона</label>
+              <div class="fd">
+              	<input type="text" class="form-control"  id="" name="user_phone" required placeholder="+998 (91) 774 00 14">
+              </div>
+      			</div>
+      		
+      			<div class="form-group">
+      				<label for="">Введите email</label> 
+      				<input type="text" class="form-control" id="" name="user_email" placeholder="mail@mail.ru (необазятельно)">
+      			</div>
+
+      			<div class="form-group">
+      				<label for="">Введите телеграм</label>
+      				<input type="text" class="form-control" id="" name="user_telegram" required placeholder="t.me/arnel_studio">
+      			</div>
+
+      			<div class="form-group">
+      				<h4>Примечание: В целях конфиденциальности мы скрыли ваш номер. Ваши данные защищены под сквозным шифрованием*</h4>
+      				<h5>*Данные не передаются посторонним лицам</h5>
+      			</div>
+      		
+      			<button type="submit" class="btn btn-primary">Отправить форму</button>
+      		</form>
+      	</div><!-- .col-sm-4 -->
+      </div> <!-- .row -->
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+	
